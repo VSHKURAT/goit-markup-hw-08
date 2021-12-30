@@ -1,0 +1,32 @@
+.work-list {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.work-list__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.work-list__label {
+  display: flex;
+  width: 370px;
+  height: 70px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.section--only-desctop {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}

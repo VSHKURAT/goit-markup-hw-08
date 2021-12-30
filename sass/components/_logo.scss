@@ -1,0 +1,16 @@
+.logo {
+  font-family: Raleway, sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.logo-first-part {
+  color: #2196f3;
+}
